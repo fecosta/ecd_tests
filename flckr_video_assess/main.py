@@ -73,7 +73,7 @@ def detect_flickering(video_path, threshold=50):
 
     print("Detected flickering frames:", flickering_frames)
     return flickering_frames, brightness_changes
-
+    
 # Example usage
 video_path = "./video/video_test.mp4"
-flickering_frames, brightness_changes = detect_flickering(video_path, threshold=50)
+flickering_frames, brightness_changes = detect_flickering(video_path, threshold=30)
